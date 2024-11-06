@@ -1,50 +1,42 @@
-# React + TypeScript + Vite
+# Movie Flix Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movie Flix is a web application that allows users to browse and search for movies, view detailed information about each title, and add new movies to the collection. Built with React, Vite, and Tailwind CSS, Movie Flix uses the TMDB API to fetch real-time movie data and enables seamless navigation and interactions.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Browse and Search Movies: Easily explore popular and trending movies.
+Detailed Movie Information: View key details like title, release date, genre, rating, and overview for each movie.
+Add New Movies: Add movies manually using a form modal.
+Responsive Design: The UI is optimized for both desktop and mobile devices.
+Skeleton Loading: Enhances user experience by displaying loading skeletons while data fetches.
+Pagination Support: Quickly browse through large movie lists with paginated results.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+-   Frontend: React with Vite
+-   Styling: Tailwind CSS
+-   API: TMDB API for movie data
+-   Date Formatting: Moment.js
+-   Routing: React Router for navigation
+-   HTTP Client: Axios for API calls
 
-- Configure the top-level `parserOptions` property like this:
+## Available Scripts
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+How to Use:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+In the directory of a clone copy of this app, you can run:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### `yarn Install`
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+This intalls the application dependencies.
+
+Then run:
+
+### `yarn start`
+
+Runs the app in the development mode.
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser>
+
+## Deployment
+
+Live: [https://movies-list-app-assigment.vercel.app](https://movies-list-app-assigment.vercel.app)
