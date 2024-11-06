@@ -1,0 +1,75 @@
+const a = {
+    adult: false,
+    backdrop_path: "/xJHokMbljvjADYdit5fK5VQsXEG.jpg",
+    belongs_to_collection: null,
+    budget: 165000000,
+    genres: [
+        { id: 12, name: "Adventure" },
+        { id: 18, name: "Drama" },
+        { id: 878, name: "Science Fiction" },
+    ],
+    homepage: "http://www.interstellarmovie.net/",
+    id: 157336,
+    imdb_id: "tt0816692",
+    origin_country: ["US"],
+    original_language: "en",
+    original_title: "Interstellar",
+    overview:
+        "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+    popularity: 187.185,
+    poster_path: "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    production_companies: [
+        {
+            id: 923,
+            logo_path: "/8M99Dkt23MjQMTTWukq4m5XsEuo.png",
+            name: "Legendary Pictures",
+            origin_country: "US",
+        },
+        {
+            id: 9996,
+            logo_path: "/3tvBqYsBhxWeHlu62SIJ1el93O7.png",
+            name: "Syncopy",
+            origin_country: "GB",
+        },
+        {
+            id: 13769,
+            logo_path: null,
+            name: "Lynda Obst Productions",
+            origin_country: "US",
+        },
+    ],
+    production_countries: [
+        { iso_3166_1: "GB", name: "United Kingdom" },
+        { iso_3166_1: "US", name: "United States of America" },
+    ],
+    release_date: "2014-11-05",
+    revenue: 701729206,
+    runtime: 169,
+    spoken_languages: [
+        { english_name: "English", iso_639_1: "en", name: "English" },
+    ],
+    status: "Released",
+    tagline: "Mankind was born on Earth. It was never meant to die here.",
+    title: "Interstellar",
+    video: false,
+    vote_average: 8.442,
+    vote_count: 35496,
+};
+
+const b = {
+    adult: false,
+    backdrop_path: "/gMQibswELoKmB60imE7WFMlCuqY.jpg",
+    genre_ids: [27, 53, 9648],
+    id: 1034541,
+    original_language: "en",
+    original_title: "Terrifier 3",
+    overview:
+        "Five years after surviving Art the Clown's Halloween massacre, Sienna and Jonathan are still struggling to rebuild their shattered lives. As the holiday season approaches, they try to embrace the Christmas spirit and leave the horrors of the past behind. But just when they think they're safe, Art returns, determined to turn their holiday cheer into a new nightmare. The festive season quickly unravels as Art unleashes his twisted brand of terror, proving that no holiday is safe.",
+    popularity: 6883.159,
+    poster_path: "/63xYQj1BwRFielxsBDXvHIJyXVm.jpg",
+    release_date: "2024-10-09",
+    title: "Terrifier 3",
+    video: false,
+    vote_average: 7.3,
+    vote_count: 601,
+};

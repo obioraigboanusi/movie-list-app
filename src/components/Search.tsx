@@ -1,8 +1,23 @@
+import { useSearchParams } from "react-router-dom";
+
 function Search() {
+    const [params, setParams] = useSearchParams();
+
+    const value = params.get("query") || "";
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const value = e.target.value;
+        params.set("query", value);
+        params.set("page", "1");
+        setParams(params);
+    };
+
     return (
         <div className="relative">
             <input
                 type="text"
+                onChange={handleChange}
+                value={value}
                 className="h-[40px] pr-6 pl-2 border"
                 placeholder="Search"
             />

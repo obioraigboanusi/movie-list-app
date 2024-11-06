@@ -12,11 +12,10 @@ function MovieDetails() {
         data: movie,
         isLoading,
         error,
-    } = useFetch<IMovieDetails>(
-        endpoints.MOVIES_DETAILS(movieId),
-        undefined,
-        !movieId
-    );
+    } = useFetch<IMovieDetails>({
+        url: endpoints.MOVIES_DETAILS(movieId),
+        disabled: !movieId,
+    });
 
     if (isLoading && !movie) {
         return <Spinner />;
