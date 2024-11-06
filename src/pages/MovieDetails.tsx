@@ -41,7 +41,7 @@ function MovieDetails() {
             className="text-white"
         >
             <div className="bg-black bg-opacity-85 h-full">
-                <div className="container">
+                <div className="container pb-10">
                     <BreadCrumb items={breadcrumbs} />
                     <div>
                         <div className="grid grid-cols-1 md:grid-cols-5 gap-8">

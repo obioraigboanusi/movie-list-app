@@ -49,7 +49,7 @@ function Movies() {
     return (
         <section>
             <div className="container py-16 space-y-8">
-                <header className="flex justify-between items-center">
+                <header className="flex flex-col md:flex-row justify-between md;items-center gap-4">
                     <h2 className="font-bold text-2xl">Top Movies</h2>
                     <div className="flex justify-between items-center gap-4">
                         <Search />
